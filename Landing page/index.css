@@ -3,6 +3,25 @@ body, html{
     padding:0;
 }
 
+.dc_copy_reviews, .dc_copy_intro, .dc_copy_main-title{
+    margin: 0;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.dc_copy_reviews{
+    font-size:25px;
+}
+
+.dc_copy_intro{
+    font-size:31px;
+
+}
+.dc_copy_main-title{
+    font-size:106px;
+    line-height: 0.9;
+}
+
 .dc_container_announcement-bar{
     background-color: #E40100;
     color: #fff;
@@ -60,12 +79,19 @@ body, html{
 }
 
  .dc_book-main-cta > img {
-    width: 80%;
+    width: 100%;
+}
+
+.dc_book-cta{
+    display: flex;
+    justify-content: center;
 }
 
  .dc_cat-btn{
-    width:80%;
+    width:90%;
+    height: 80px;
  }
+
 
  @media only screen and (max-width: 769px) {
     .dc_container_content{
