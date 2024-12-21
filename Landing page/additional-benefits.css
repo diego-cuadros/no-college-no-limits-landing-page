@@ -62,8 +62,12 @@ body, html{
     }
 }
 
-.dc_additional-benefits-grid, .dc_additional-benefits_row1{
+.dc_additional-benefits-grid, .dc_additional-benefits_row1, .dc_additional-benefits_row2, .dc_additional-benefits_row3{
     max-width: 100%;
+}
+
+.dc_additional-benefits_row1, .dc_additional-benefits_row3{
+    margin: 50px 0;
 }
 
 .dc_additional-benefits_block{
@@ -99,3 +103,22 @@ body, html{
     margin:0;
     text-align: left;
 }
+
+.dc_additional-benefits_row2 > img {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* ERASE THIS WHEN IMPLEMENTING THE CODE */
+.dc_book-cta{
+    display: flex;
+    justify-content: center;
+}
+
+ .dc_cat-btn{
+    width:90%;
+    height: 80px;
+ }
+
+ /* ERASE THIS WHEN IMPLEMENTING THE CODE */
