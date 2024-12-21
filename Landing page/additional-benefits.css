@@ -10,6 +10,8 @@
     --dc_testimonial-author-name-weight:800;
     --dc_additional-benefits-header-mobile:26px;
     --dc_additional-benefits-header-desktop:24px;
+    --dc_body-text-font-size-mobile:18px;
+    --dc_body-text-font-size-desktop:17px;
 }
 
 body, html{
@@ -64,10 +66,36 @@ body, html{
     max-width: 100%;
 }
 
-.dc_additional-benefits_block1{
-    border: 1px solid gray;
+.dc_additional-benefits_block{
+    border:1px solid #e0e0e0;
     background-color: #fff;
     max-width:70%;
     padding:16px;
     margin: 18px auto;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.15);
+}
+
+
+.dc_additional-benefits_header{
+    font-size: var(--dc_additional-benefits-header-mobile);
+    font-weight: 800;
+    margin: 0 20px 20px 20px;
+    text-align: center;
+}
+
+.dc_additional-benefits-content_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.dc_additional-benefits-bullet-icon{
+    color:#E40100;
+    margin:5px 8px 0 0;
+    font-size: 8px;
+}
+
+.dc_additional-benefits_content{
+    font-size: var(--dc_body-text-font-size-mobile);
+    margin:0;
+    text-align: left;
 }
