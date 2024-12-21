@@ -1,3 +1,15 @@
+:root{
+    --dc_intro-text-desktop:31px;
+    --dc_intro-text-mobile:22px;
+    --dc_main-title-desktop:62px;
+    --dc_main-title-mobile:35px;
+    --dc_testimonial-body-text-mobile:18px;
+    --dc_testimonial-body-text-desktop:17px;
+    --dc_testimonial-author-name-mobile:20px;
+    --dc_testimonial-author-name-desktop:22px;
+    --dc_testimonial-author-name-weight:800;
+}
+
 body, html{
     margin:0;
     padding:0;
@@ -67,18 +79,19 @@ body, html{
 }
 
 
-.dc_copy-intro{
-    font-size:31px;
-    font-weight: 0;
+.dc_custom-intro-text, .dc_custom-main-title{
     text-align: center;
-    line-height: 1.3;
-    margin: 10px;
 }
 
-@media only screen and (max-width: 769px) {
-    .dc_copy-intro{
-        font-size:22px;
-        margin:15px 0;
+.dc_custom-intro-text{
+    font-size: var(--dc_intro-text-desktop);
+    margin:0;
+    
+}
+
+@media only screen and (max-width: 769px){
+    .dc_custom-intro-text{
+        font-size: var(--dc_intro-text-mobile);
     }
 }
 

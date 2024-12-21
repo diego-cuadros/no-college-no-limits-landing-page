@@ -35,30 +35,30 @@ body, html{
     }
 }
 
-.dc_testimonials-intro-text_type2, .dc_testimonials-main-title_type2{
+.dc_custom-intro-text, .dc_custom-main-title{
     text-align: center;
 }
 
-.dc_testimonials-intro-text_type2{
+.dc_custom-intro-text{
     font-size: var(--dc_intro-text-desktop);
     margin:0;
     
 }
 
 @media only screen and (max-width: 769px){
-    .dc_testimonials-intro-text_type2{
+    .dc_custom-intro-text{
         font-size: var(--dc_intro-text-mobile);
     }
 }
 
-.dc_testimonials-main-title_type2{
+.dc_custom-main-title{
     font-size: var(--dc_main-title-desktop);
     margin:15px 0;
     font-weight: 800;
 }
 
 @media only screen and (max-width: 769px){
-    .dc_testimonials-main-title_type2{
+    .dc_custom-main-title{
         font-size: var(--dc_main-title-mobile);
     }
 }

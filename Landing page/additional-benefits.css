@@ -1,0 +1,73 @@
+:root{
+    --dc_intro-text-desktop:31px;
+    --dc_intro-text-mobile:22px;
+    --dc_main-title-desktop:62px;
+    --dc_main-title-mobile:35px;
+    --dc_testimonial-body-text-mobile:18px;
+    --dc_testimonial-body-text-desktop:17px;
+    --dc_testimonial-author-name-mobile:20px;
+    --dc_testimonial-author-name-desktop:22px;
+    --dc_testimonial-author-name-weight:800;
+    --dc_additional-benefits-header-mobile:26px;
+    --dc_additional-benefits-header-desktop:24px;
+}
+
+body, html{
+    margin:0;
+    padding:0;
+}
+
+.dc_additional-benefits_container{
+    margin:auto;
+    width: 100%;
+    max-width: 1400px;
+}
+
+@media only screen and (max-width: 769px) {
+    .dc_additional-benefits_container{
+        width: 100%;
+        margin:0;
+        padding:0;
+    }
+}
+
+.dc_custom-intro-text, .dc_custom-main-title{
+    text-align: center;
+}
+
+.dc_custom-intro-text{
+    font-size: var(--dc_intro-text-desktop);
+    margin:0;
+    
+}
+
+@media only screen and (max-width: 769px){
+    .dc_custom-intro-text{
+        font-size: var(--dc_intro-text-mobile);
+    }
+}
+
+
+.dc_custom-main-title{
+    font-size: var(--dc_main-title-desktop);
+    margin:15px 0;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 769px){
+    .dc_custom-main-title{
+        font-size: var(--dc_main-title-mobile);
+    }
+}
+
+.dc_additional-benefits-grid, .dc_additional-benefits_row1{
+    max-width: 100%;
+}
+
+.dc_additional-benefits_block1{
+    border: 1px solid gray;
+    background-color: #fff;
+    max-width:70%;
+    padding:16px;
+    margin: 18px auto;
+}
