@@ -34,7 +34,7 @@ body, html{
         margin:20px;
     }
 }
-
+/*
 .dc_custom-intro-text, .dc_custom-main-title{
     text-align: center;
 }
@@ -61,7 +61,7 @@ body, html{
     .dc_custom-main-title{
         font-size: var(--dc_main-title-mobile);
     }
-}
+}*/
 
 
 .dc_testimonials-grid_container_type2{
